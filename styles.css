@@ -1,0 +1,102 @@
+
+header {
+    background-image: url(images/pic_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 2%;
+    
+}
+
+ul {
+    
+    border: black solid;
+   
+   width: 100%;
+}
+ul li {
+    color: white;
+}
+ .getschoold {
+    margin-top: 6em;
+    color: white;
+    font-weight: bold;
+}
+.getschoold .get {
+    
+    font-size: 120px;
+}
+.underget {
+    width: 20%
+}
+.registrebtn{
+    margin-top: 25%;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    background-color:#C271FF;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    padding-top: 11px;
+    
+}
+.registrebtn:hover {
+    opacity: 0.9;
+    color: white;
+    text-decoration: none;
+}
+.profile img {
+    border: none;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.profile {
+    border:  black solid 2px;
+    width: 150px;
+    height: 237px;
+
+}
+.profiles {
+    border:  yellow solid 2px;
+    width: 1009px;
+    height: 237px;
+    color: white;
+    
+}
+.profile h4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.profile p{
+    font-size: 16px;
+    
+    text-align: center;
+
+}
+h1 span {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+@media only screen and  (min-width: 700px) {
+    .getschoold .get {
+        font-size: 61px;
+        
+    }
+    ul li {
+        color: wheat;
+       
+    }
+    .profiles{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+ 
